@@ -63,6 +63,23 @@
 				  	</ul>
 					<h3>Workshop Outline</h3>
 					<ul>
+						<li><strong>BCI Workshop</strong> [10:00 AM - 12:30 PM]<ul>
+							<li>BCI Intro and Examples</li>
+							<li>BCI with Google Collab </li>
+							<li>Building Real-Time BCI</li>
+							<li>Flash Talks</li>
+						</ul></li>
+						<li><strong>Lunch</strong> [12:30 PM - 1:15 PM]</li>
+						<li><strong>Drone Competition</strong> [1:30 PM - 5:00 PM]<ul>
+							<li>Competition and Drone Usage Introduction</li>
+							<li>Competition Start</li>
+							<li>Drone Race Competition</li>
+						</ul></li>
+						<li><strong>Result</strong> [5:00 PM - 6:00 PM]<ul>
+							<li>Results announcement</li>
+							<li>Demos/Pizzas</li>
+							<li>Networking</li>
+						</ul></li>
 				  		<li>(Upcoming Updates ... )</li>
 				  	</ul>
 					<p><strong>(for hands-on setup, please bring your own laptop)</strong></p>
@@ -106,13 +123,44 @@
 								
 					  </div>
 
-					  <!--
+
 					 <h2>Experiment Paradigms
 						<img src="./img/icon.png" style="width: 20px; height: 20px; margin-left: 10px;"/>
 					  </h2>
 					  <div class="card-container"> 
-					  
-					  	  <div class="card card-layout">
+							<div class="card card-layout">
+						  	<el-avatar :size="80" :src="image6"></el-avatar>
+						  	<div class="card-body">
+						  		<a href="#" style="text-decoration: none"><h5 class="card-title">Raymond Chia</h5></a>
+						  		<p class="card-text">Machine Learning Researcher</p>
+						  	</div>
+						  </div>
+
+
+						  <div class="card card-layout">
+							<el-avatar :size="80" :src="image2"></el-avatar>
+							<div class="card-body">
+							  <a href="https://www.linkedin.com/in/quang-minh-nguyen-3a98b5157" style="text-decoration: none"><h5 class="card-title">Minh Nguyen</h5></a>
+							  <p class="card-text">Brain Computer Interface Researcher</p>
+							</div>
+						  </div>
+
+						  
+						  <div class="card card-layout" style="visibility: hidden;">
+						  </div>
+					
+					  </div>
+
+
+						<!--
+					  <h2>BCI Demonstration
+						<img src="./img/icon.png" style="width: 20px; height: 20px; margin-left: 10px;"/>
+					  </h2>  
+
+
+					  <div class="card-container">
+
+						  <div class="card card-layout">
 						    <el-avatar :size="80" :src="image4"></el-avatar>
 						    <div class="card-body">
 						      <a href="https://www.linkedin.com/in/yanqiu-tian/" style="text-decoration: none"><h5 class="card-title">Yanqiu Tian</h5></a>
@@ -128,38 +176,9 @@
 							  <p class="card-text">Brain Computer Interface and Mixed Reality Researcher</p>
 							</div>
 						  </div>
-						  
-						  <div class="card card-layout" style="visibility: hidden;">
-						  </div>
-					
-					  </div>
-
-					  <h2>BCI Demonstration
-						<img src="./img/icon.png" style="width: 20px; height: 20px; margin-left: 10px;"/>
-					  </h2>  
 
 
-					  <div class="card-container">		  
-						  
-						  <div class="card card-layout">
-						  	<el-avatar :size="80" :src="image6"></el-avatar>
-						  	<div class="card-body">
-						  		<a href="#" style="text-decoration: none"><h5 class="card-title">Raymond Chia</h5></a>
-						  		<p class="card-text">Machine Learning Researcher</p>
-						  	</div>
-						  </div>	
-						  
-						  
-						  <div class="card card-layout">
-							<el-avatar :size="80" :src="image2"></el-avatar>
-							<div class="card-body">
-							  <a href="https://www.linkedin.com/in/quang-minh-nguyen-3a98b5157" style="text-decoration: none"><h5 class="card-title">Minh Nguyen</h5></a>
-							  <p class="card-text">Brain Computer Interface Researcher</p>
-							</div>
-						  </div>
-						  
-		  
-					  
+
 						  <div class="card card-layout">
 							<el-avatar :size="80" :src="image8"></el-avatar>
 							<div class="card-body">
@@ -224,17 +243,17 @@
 				  -->
 
 				  <div id="sponsor">
-					  <h1>Sponsors:</h1>
+					  <h1>Sponsors and Supporters:</h1>
 					  <div class="image">
 						  <img src="img/logo1.png">
 						  <img src="img/logo3.jpg">
-						  <img src="img/logo4.jpg">
+						  <img src="img/logo4_2.png">
 					  </div>
 				  </div>
 			  </el-main>
 			  <el-footer>
 				  <div class="footer">
-					  <h3 style="margin-top:15px;">Hands-on Workshop on Brain Computer Interface</h3>
+					  <h3 style="margin-top:15px;">Hands-on Workshop on Brain-Computer Interface</h3>
 					  <p style="margin-top:10px;"> <a href="https://www.uts.edu.au/about/faculty-engineering-and-information-technology/uts-tech-festival">UTS Tech Festival Copyright © 2024 All rights reserved</a></p>
 				  </div> 
 			  </el-footer>
@@ -307,7 +326,7 @@
 		#home:hover
 		{
     		background-size: 95%;
-			background-position: center center; /* 保持背景图片居中 */
+			background-position: center center;
 		}
 
 		#home .inner{
@@ -483,8 +502,8 @@
 		}
 		
 		#sponsor img{
-			max-width: 200px; /* 根据需要调整 */
-    		max-height: 100px; /* 根据需要调整 */
+			max-width: 300px;
+    		max-height: 200px;
 			width: auto;
 			height: auto;
     		object-fit: contain;
